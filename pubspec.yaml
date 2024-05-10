@@ -1,0 +1,32 @@
+name: todo_app
+description: A new Flutter project. 
+publish_to: 'none'  
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+ 
+dependencies:
+  parse_server_sdk_flutter: ^3.1.0
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+ 
+  cupertino_icons: ^1.0.2
+  parse_server_sdk: any
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+
+#   # The "flutter_lints" package below contains a set of recommended lints to
+#   # encourage good coding practices. The lint set provided by the package is
+#   # activated in the `analysis_options.yaml` file located at the root of your
+#   # package. See that file for information about deactivating specific lint
+#   # rules and activating additional ones.
+#   flutter_lints: ^3.0.1
+
+ 
+flutter:   
+  uses-material-design: true
+ 
